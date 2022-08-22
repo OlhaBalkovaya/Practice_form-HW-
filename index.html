@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./accets/style.css"/>
+  <title>Practice form</title>
+</head>
+<body>
+  <main>
+    <form class="main-form" method="get">
+      <section class="container-name">
+        <input
+          id="First name"
+          name="Firstname"
+          class="foritemsblock sizemainitems margin-main"
+          type="text"
+          placeholder="First name"
+        />
+          <input
+            id="Second name"
+            name="Secondname"
+            class="foritemsblock sizemainitems margin-main"
+            type="text"
+            placeholder="Second name"
+          />
+        </section>
+
+      <section class="container-other">
+          <input class="for-other margin-main"
+            type="email"
+            name="email" 
+            placeholder="Email"/>
+          <input 
+            class="for-other margin-main"
+            name="Password"
+            type="password" 
+            placeholder="Password"/>
+          <input
+            class="for-other margin-main"
+            name="Confirm Password"
+            type="password" 
+            placeholder="Confirm Password"/>
+        <div class="margin-main">
+          <input id="is-adult" type="checkbox" name="is-adult" value="true" />
+          <label for="is-adult">I accept the Terms of Use & Privacy Policy</label>
+        </div>
+        <button type="submit" class="margin-main">Register Now</button>
+      </section>
+    </form>
+  </main>
+</body>
+</html>

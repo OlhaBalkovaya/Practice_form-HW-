@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+ :root{
+  --left-right-margin:5%;
+ }
+.main-form {
+  width: 70%;
+  border: 2px solid black;
+}
+
+.container-name {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.container-other {
+  display: flex;
+  flex-direction: column;
+}
+
+.sizemainitems{
+  width:50%
+}
+
+.for-other {
+  width: calc(100%-var(--left-right-margin));
+} 
+ 
+
+ .margin-main{
+  margin:2% var(--left-right-margin)
+ }
+ .foritemsblock{
+  display: block;
+ }
