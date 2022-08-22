@@ -10,6 +10,8 @@
 <body>
   <main>
     <form class="main-form" method="get">
+      <legend class="forlegent">Register</legend>
+      <p>Create your account. It's free and only takes a minute</p>
       <section class="container-name">
         <input
           id="First name"
@@ -28,25 +30,25 @@
         </section>
 
       <section class="container-other">
-          <input class="for-other margin-main"
+          <input class="for-other margin-main foritemsblock"
             type="email"
             name="email" 
             placeholder="Email"/>
           <input 
-            class="for-other margin-main"
+            class="for-other margin-main foritemsblock"
             name="Password"
             type="password" 
             placeholder="Password"/>
           <input
-            class="for-other margin-main"
+            class="for-other margin-main foritemsblock"
             name="Confirm Password"
             type="password" 
             placeholder="Confirm Password"/>
         <div class="margin-main">
-          <input id="is-adult" type="checkbox" name="is-adult" value="true" />
-          <label for="is-adult">I accept the Terms of Use & Privacy Policy</label>
+          <input id="agree" type="checkbox" name="agree" value="true" />
+          <label for="agree">I accept the <a href="#" class="for-a">Terms of Use</a> & <a href="#" class="for-a">Privacy Policy</a></label>
         </div>
-        <button type="submit" class="margin-main">Register Now</button>
+        <button type="submit" class="margin-main forbutton foritemsblock">Register Now</button>
       </section>
     </form>
   </main>
