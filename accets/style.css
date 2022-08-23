@@ -4,17 +4,55 @@
   padding: 0;
 }
  :root{
-  --left-right-margin:5%;
+  --left-right-margin:3%;
  }
+
+ body{
+  font-family: Arial, Helvetica, sans-serif;
+ }
+
 .main-form {
-  width: 70%;
-  border: 2px solid black;
+  width: 50%;
+  border: 1px solid rgb(164, 161, 161);
+  border-radius: 2%;
+  background-color:  rgba(208, 204, 204, 0.711);
+  text-align: center;
+  color: gray;
 }
+
+.forlegent{
+  font-size: 25px;
+  padding: 2%;
+  position: relative;
+}
+
+.forlegent::after,
+.forlegent::before{
+  content:'';
+  position: absolute;
+  background-color:gray;
+  height: 2px;
+  width: 15%;
+}
+
+.forlegent::after{
+  right:10%;
+  top:50%;
+}
+
+.forlegent::before{
+  left:10%;
+  top:50%;
+}
+
+
 
 .container-name {
   display: flex;
   flex-direction: row;
   justify-content:space-between;
+  flex-wrap: wrap;
+
 }
 
 .container-other {
@@ -23,7 +61,7 @@
 }
 
 .sizemainitems{
-  width:50%
+  width:40%
 }
 
 .for-other {
@@ -34,6 +72,18 @@
  .margin-main{
   margin:2% var(--left-right-margin)
  }
+
  .foritemsblock{
   display: block;
+  height: 35px;
+ }
+ 
+ .forbutton {
+  background-color: green;
+  color: white;
+ }
+
+ .for-a{
+  text-decoration: none;
+  color: green;
  }
